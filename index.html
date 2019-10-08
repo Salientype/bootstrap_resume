@@ -1,31 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Bootstrap Resume</title>
 </head>
+
 <body>
-    <div class="container col-12">
-        <header class="navbar">
-            <div class="container col-lg-8">
-                <h1><a href="#" class="display-3">Jorge Alvarez Resume</a></h1>
-                <ul class="navbar nav display-4">
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Discography</a></li>
-                    <li><a href="#">Family Tree</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+    <div>
+        <header class="fixed-top">
+            <div class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                    <a href="#" class="navbar-brand">Jorge Alvarez</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNav"
+                        aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-md-end" id="headerNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Discography</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Family Tree</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
-        <main></main>
+
+        <main>
+            <div class="jumbotron jumbotron-fluid mb-0 mt-5">
+                <div class="container">
+                    <h1 class="display-4">Jack of Many Trades</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Vel pretium lectus quam id leo in vitae turpis
+                        massa. Aliquam sem fringilla ut morbi. Tortor pretium viverra suspendisse potenti nullam ac
+                        tortor vitae purus. Augue eget arcu dictum varius.</p>
+                </div>
+            </div>
+            <div class="bg-light pt-3 pb-3 bg-dark">
+                <ul class="list-group list-group-horizontal-md container flex-wrap">
+                    <li class="list-group-item m-2 rounded-pill">Cras justo odio</li>
+                    <li class="list-group-item m-2 rounded-pill">Dapibus ac facilisis in</li>
+                    <li class="list-group-item m-2 rounded-pill">Morbi leo risus</li>
+                    <li class="list-group-item m-2 rounded-pill">Cras justo odio</li>
+                    <li class="list-group-item m-2 rounded-pill">Dapibus ac facilisis in</li>
+                    <li class="list-group-item m-2 rounded-pill">Morbi leo risus</li>
+                    <li class="list-group-item m-2 rounded-pill">Cras justo odio</li>
+                    <li class="list-group-item m-2 rounded-pill">Dapibus ac facilisis in</li>
+                    <li class="list-group-item m-2 rounded-pill">Morbi leo risus</li>
+                    <li class="list-group-item m-2 rounded-pill">Cras justo odio</li>
+                    <li class="list-group-item m-2 rounded-pill">Dapibus ac facilisis in</li>
+                    <li class="list-group-item m-2 rounded-pill">Morbi leo risus</li>
+                </ul>
+            </div>
+            <div class="container d-flex flex-wrap">
+                <div class="card mb-4 mt-4 w-md-100 w-lg-50">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-4 overflow-hidden d-flex">
+                            <img src="img/pexels-photo-417142.jpeg" class="card-img align-self-center" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">On Safari</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci
+                                    sagittis eu volutpat odio facilisis. Risus feugiat in ante metus dictum at. Proin
+                                    sed libero enim sed faucibus turpis.</p>
+                                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 mt-4 w-md-100 w-lg-50">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-4 overflow-hidden d-flex">
+                            <img src="img/amazing-animal-beautiful-beautifull.jpg" class="card-img align-self-center"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Evening Sky</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies
+                                    integer quis auctor elit. Ultrices in iaculis nunc sed augue lacus viverra.</p>
+                                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 mt-4 w-md-100 w-lg-50">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-4 overflow-hidden d-flex">
+                            <img src="img/nature-phpoto-day-squirrel.jpg.653x0_q80_crop-smart.jpg"
+                                class="card-img align-self-center" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Squirrel Photos</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat semper viverra
+                                    nam libero justo laoreet sit. Feugiat in ante metus dictum at tempor commodo
+                                    ullamcorper a. Turpis nunc eget lorem dolor sed viverra.</p>
+                                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 mt-4 w-md-100 w-lg-50">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-4 overflow-hidden d-flex">
+                            <img src="img/pexels-photo-733475.jpeg" class="card-img align-self-center" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Starry Night</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur gravida arcu
+                                    ac tortor dignissim convallis aenean et tortor. Aliquet bibendum enim facilisis
+                                    gravida. Dignissim convallis aenean et tortor.</p>
+                                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 mt-4 w-md-100 w-lg-50">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-4 overflow-hidden d-flex">
+                            <img src="img/pexels-photo-994605.jpeg" class="card-img align-self-center" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Beach Time</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nibh tellus
+                                    molestie nunc. Amet est placerat in egestas erat imperdiet sed euismod. Sed odio
+                                    morbi quis commodo odio aenean. Nunc aliquet bibendum enim facilisis gravida neque
+                                    convallis.</p>
+                                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 mt-4 w-md-100 w-lg-50">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-4 overflow-hidden d-flex">
+                            <img src="img/tracks.jpg" class="card-img align-self-center" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">The Tracks</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. In dictum non
+                                    consectetur a erat nam at lectus urna. Id cursus metus aliquam eleifend mi in.</p>
+                                <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
         <footer></footer>
     </div>
 </body>
+
 </html>
